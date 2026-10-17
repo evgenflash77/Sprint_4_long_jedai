@@ -1,4 +1,4 @@
-package PageObject;
+package ru.yandex.praktikum.pageobject;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.rules.ExternalResource;

@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a313fc37-3205-4585-ada1-4e7713c82bf8" name="Changes" comment="Commit_YandexSamocatOrderParamTest">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/praktikum/pageobject/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/pageobject/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/OrderFormSamocat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/pageobject/OrderFormSamocat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/OrderPlaced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/pageobject/OrderPlaced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/OrderRentalForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/pageobject/OrderRentalForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/PlaceAnOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/pageobject/PlaceAnOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandeXSamocatParamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandeXSamocatParamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexSamocatOrderParamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexSamocatOrderParamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +54,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.YandeXSamocatParamTest.executor": "Run",
+    "JUnit.YandeXSamocatParamTest.shouldOpenContentForSelectedItem.executor": "Run",
+    "JUnit.YandexSamocatOrderParamTest.executor": "Run",
     "JUnit.YandexSamocatOrderParamTest.logintest.executor": "Run",
     "Maven.Sprint_4 [-Dbrowser=firefox].executor": "Run",
+    "Maven.Sprint_4 [install].executor": "Run",
     "Maven.Sprint_4 [test,-Dbrowser=firefox,-f...].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,6 +66,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "#1 on develop",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/Flash/Desktop/ТЕСТИРОВЩИК/Java/selenium-fresh/Sprint_4/src/test/java",
     "onboarding.tips.debug.path": "C:/Users/Flash/Desktop/ТЕСТИРОВЩИК/Java/selenium-fresh/Sprint_4/src/main/java/ru/yandex/praktikum/Main.java",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
@@ -65,11 +77,30 @@
       <command value="mvn  test -Dbrowser=firefox -f pom.xml" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.YandexSamocatOrderParamTest.logintest">
+  <component name="RunManager" selected="JUnit.YandexSamocatOrderParamTest">
     <configuration name="YandeXSamocatParamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="YandeXSamocatParamTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YandeXSamocatParamTest.shouldOpenContentForSelectedItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YandeXSamocatParamTest" />
+      <option name="METHOD_NAME" value="shouldOpenContentForSelectedItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YandexSamocatOrderParamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YandexSamocatOrderParamTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,8 +118,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.YandexSamocatOrderParamTest.logintest" />
+        <item itemvalue="JUnit.YandexSamocatOrderParamTest" />
+        <item itemvalue="JUnit.YandeXSamocatParamTest.shouldOpenContentForSelectedItem" />
         <item itemvalue="JUnit.YandeXSamocatParamTest" />
+        <item itemvalue="JUnit.YandexSamocatOrderParamTest.logintest" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +171,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/YandeXSamocatParamTest.java</url>
+          <line>17</line>
+          <properties class="YandeXSamocatParamTest" method="shouldOpenContentForSelectedItem">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

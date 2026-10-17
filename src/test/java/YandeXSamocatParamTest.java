@@ -1,7 +1,8 @@
-import PageObject.DriverFactory;
-import PageObject.MainPage;
+import ru.yandex.praktikum.pageobject.DriverFactory;
+import ru.yandex.praktikum.pageobject.MainPage;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
+import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +19,9 @@ public class YandeXSamocatParamTest {
         WebDriver driver = driverFactory.getDriver();
         MainPage mainPage = new MainPage(driver);// создали объект страницы MainPage
         mainPage.openSite();// открыли сайт
-        mainPage.ClickDrop_down_list(index);// вызвали метод открывающий выпадающий список
+        mainPage.ClickDrop_down_list(index);//вызвали метод открывающий выпадающий список
+        String actualText = mainPage.getAnswerText(index); // проверям текст открывающихся списков
+        Assert.assertFalse(actualText.trim().isEmpty());
 
 
 

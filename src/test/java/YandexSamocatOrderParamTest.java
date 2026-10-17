@@ -1,11 +1,11 @@
-import PageObject.*;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
+import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.WebElement;
 
 
 @RunWith(JUnitParamsRunner.class) //запустил класс с параметрами
@@ -45,7 +45,8 @@ public   class YandexSamocatOrderParamTest {
         orderRentalForm.sendCommentRental(); // оставили комментарий курьеру
         orderRentalForm.clickOrderButtonRental();// нажали кнопку заказать
         placeAnOrder.clickButtonYes();// кликаем по кнопке "Да"
-        orderPlaced.verifyOrderSuccess(); //дождались появления модального окна "Заказ оформлен"
+        WebElement modalButton = orderPlaced.getModalButton(); // нашли кнопку модального окна
+        Assert.assertTrue(modalButton.isDisplayed());
 
     }
 
